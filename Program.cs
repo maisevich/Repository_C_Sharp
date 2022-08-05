@@ -12,9 +12,9 @@ namespace ConsoleApplication1
             // Форматируем шапку программы
             Console.BackgroundColor = ConsoleColor.Green;
             Console.ForegroundColor = ConsoleColor.Black;
-            Console.WriteLine("********************");
-            Console.WriteLine("**** Мой проект ****");
-            Console.WriteLine("********************");
+            Console.WriteLine("*********************************************");
+            Console.WriteLine("**** Первый проект Александра Мойсевича !****");
+            Console.WriteLine("*********************************************");
             // Основная программа
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.Green;
