@@ -1,8 +1,12 @@
-﻿//Задача 34: Задайте массив, заполненный случайными положительными трёхзначными числами. 
-//Напишите программу, которая покажет количество чётных чисел в массиве.
+﻿//Задача 36: Задайте одномерный массив, заполненный случайными числами. 
+//Найдите сумму элементов, стоящих на нечётных позициях.
+//[3, 7, 23, 12] -> 19
+//[-4, -6, 89, 6] -> 0
 
-//Task 34: Specify an array filled with random positive three-digit numbers. 
-//Write a program that will show the number of even numbers in the array.
+//Task 36: Set a one-dimensional array filled with random numbers. 
+//Find the sum of the elements standing in odd positions.
+//[3, 7, 23, 12] -> 19
+//[-4, -6, 89, 6] -> 0
 
 Console.WriteLine("How many numbers should I include in the array?");
 int sizeArray = Convert.ToInt32(Console.ReadLine());
@@ -27,8 +31,8 @@ void PrintArray(int[] numbers)
     Console.Write("]");
     Console.WriteLine();
 }
-int count = 0;
-for (int a = 0; a < numbers.Length; a++)
-if (numbers[a] % 2 == 0)
-count++;
-Console.WriteLine($"Even numbers in the array: {count}");
+int sum = 0;
+for (int a = 0; a < numbers.Length; a+=2)
+    sum = sum + numbers[a]; 
+
+Console.WriteLine($"The sum of the numbers standing in odd positions : {sum}");
