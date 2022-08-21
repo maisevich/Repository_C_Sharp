@@ -1,11 +1,21 @@
 ﻿//Задача 34: Задайте массив, заполненный случайными положительными трёхзначными числами. 
 //Напишите программу, которая покажет количество чётных чисел в массиве.
 
-Console.WriteLine("Какое количество чисел включить в массив?");
+//Task 34: Specify an array filled with random positive three-digit numbers. 
+//Write a program that will show the number of even numbers in the array.
+
+Console.WriteLine("How many numbers should I include in the array?");
 int sizeArray = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int[sizeArray];
 randomNum(numbers);
-Console.WriteLine("Массив : ");
+void randomNum(int[] numbers)
+{
+    for(int i = 0; i < numbers.Length; i++)
+    {
+        numbers[i] = new Random().Next(100,1000);
+    }
+}
+Console.WriteLine("Array : ");
 PrintArray(numbers);
 void PrintArray(int[] numbers)
 {
@@ -21,11 +31,4 @@ int count = 0;
 for (int a = 0; a < numbers.Length; a++)
 if (numbers[a] % 2 == 0)
 count++;
-Console.WriteLine($"Четных чисел в массиве: {count}");
-void randomNum(int[] numbers)
-{
-    for(int i = 0; i < numbers.Length; i++)
-    {
-        numbers[i] = new Random().Next(100,1000);
-    }
-}
+Console.WriteLine($"Even numbers in the array: {count}");
