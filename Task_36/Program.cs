@@ -35,4 +35,5 @@ int sum = 0;
 for (int a = 0; a < numbers.Length; a+=2)
     sum = sum + numbers[a]; 
 
-Console.WriteLine($"The sum of the numbers standing in odd positions : {sum}");
+Console.WriteLine($"The sum of the numbers standing in odd positions : {sum}"); 
+
