@@ -10,7 +10,7 @@ void Coordin()
 {
   for (int i = 0; i < Num1.GetLength(0); i++)
   {
-    Console.Write($"Введите данные для прямой линии {i+1} \n");
+    Console.Write($"Введите данные для уравления прямой линии # {i+1} \n");
     for (int j = 0; j < Num1.GetLength(1); j++)
     {
       if(j==0) Console.Write($"k{i+1} = ");
@@ -32,7 +32,7 @@ void Line(double[,] LineCoef)
   {
     Console.Write($"\nПрямые совпадают");
   }
-  else if (LineCoef[0,0] == LineCoef[1,0] && LineCoef[0,1] != LineCoef[1,1]) 
+  else if (LineCoef[0,0] == LineCoef[1,1] && LineCoef[0,1] != LineCoef[1,0]) 
   {
     Console.Write($"\nПрямые параллельны");
   }
@@ -42,6 +42,5 @@ void Line(double[,] LineCoef)
     Console.Write($"\nТочка пересечения прямых: ({Num2[0]}, {Num2[1]})");
   }
 }
-
 Coordin();
 Line(Num1);
