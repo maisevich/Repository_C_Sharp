@@ -9,5 +9,6 @@ M = 4; N = 8. -> 30
 Console.WriteLine("Введите поочережно числа М и N");
 int firstNum = Convert.ToInt32(Console.ReadLine());
 int lastNum = Convert.ToInt32(Console.ReadLine());
+int count = lastNum - firstNum + 1;
 Console.Write("Сумма натуральных элементов в промежутке от M до N = "); 
-Console.Write(lastNum*(lastNum+1)/2);
+Console.Write((firstNum + lastNum) * count/2);
