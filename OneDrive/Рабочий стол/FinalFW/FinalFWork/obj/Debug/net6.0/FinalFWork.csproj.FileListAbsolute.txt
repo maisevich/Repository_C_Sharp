@@ -1,0 +1,15 @@
+C:\Users\admin\OneDrive\Рабочий стол\FinalFW\FinalFWork\bin\Debug\net6.0\FinalFWork.exe
+C:\Users\admin\OneDrive\Рабочий стол\FinalFW\FinalFWork\bin\Debug\net6.0\FinalFWork.deps.json
+C:\Users\admin\OneDrive\Рабочий стол\FinalFW\FinalFWork\bin\Debug\net6.0\FinalFWork.runtimeconfig.json
+C:\Users\admin\OneDrive\Рабочий стол\FinalFW\FinalFWork\bin\Debug\net6.0\FinalFWork.dll
+C:\Users\admin\OneDrive\Рабочий стол\FinalFW\FinalFWork\bin\Debug\net6.0\FinalFWork.pdb
+C:\Users\admin\OneDrive\Рабочий стол\FinalFW\FinalFWork\obj\Debug\net6.0\FinalFWork.csproj.AssemblyReference.cache
+C:\Users\admin\OneDrive\Рабочий стол\FinalFW\FinalFWork\obj\Debug\net6.0\FinalFWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\OneDrive\Рабочий стол\FinalFW\FinalFWork\obj\Debug\net6.0\FinalFWork.AssemblyInfoInputs.cache
+C:\Users\admin\OneDrive\Рабочий стол\FinalFW\FinalFWork\obj\Debug\net6.0\FinalFWork.AssemblyInfo.cs
+C:\Users\admin\OneDrive\Рабочий стол\FinalFW\FinalFWork\obj\Debug\net6.0\FinalFWork.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\Рабочий стол\FinalFW\FinalFWork\obj\Debug\net6.0\FinalFWork.dll
+C:\Users\admin\OneDrive\Рабочий стол\FinalFW\FinalFWork\obj\Debug\net6.0\refint\FinalFWork.dll
+C:\Users\admin\OneDrive\Рабочий стол\FinalFW\FinalFWork\obj\Debug\net6.0\FinalFWork.pdb
+C:\Users\admin\OneDrive\Рабочий стол\FinalFW\FinalFWork\obj\Debug\net6.0\FinalFWork.genruntimeconfig.cache
+C:\Users\admin\OneDrive\Рабочий стол\FinalFW\FinalFWork\obj\Debug\net6.0\ref\FinalFWork.dll
