@@ -11,29 +11,20 @@
 [“Russia”, “Denmark”, “Kazan”] → []
 */
 
-Console.WriteLine("Заданный массив строк: ");
+string[] strArr = { "Hello", "212", "Wed", ":))", "GB" };
 
-string[] stringArray = { "Hello", "212", "Wed", ":))", "GB" };
+Console.WriteLine
+($"Заданный строчный массив: [{strArr[0]}; {strArr[1]}; {strArr[2]}; {strArr[3]}; {strArr[4]};]");
 
-for (int i = 0; i < stringArray.Length; i++)
-    if (stringArray[i].Length <= 3)
+Console.Write
+("Новый строчный массив из символов, длина которых <= 3: ");
+
+for (int i = 0; i < strArr.Length; i++)
+    if (strArr[i].Length <= 3)
     {
-        Console.WriteLine(stringArray[i]);
+        Console.Write($"[{strArr[i]}] ");
     }
 
-    //Console.WriteLine("Element[{0}] = {1}", i, stringArray[i]);
-    //Console.ReadKey();
-
-//Console.WriteLine("The length of '{0}' is {1}", stringArray[0], stringArray[0].Length);
-
-
-/*
-Console.Write(stringArray[0] + ", ");
-Console.Write(stringArray[1] + ", ");
-Console.Write(stringArray[2] + ", ");
-Console.Write(stringArray[3] + ", ");
-Console.Write(stringArray[4] + ", ");
-*/
  
 
 
